@@ -265,7 +265,7 @@ dayjs()
         <Sponsors /> -->
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
-          href="https://twitter.com/ping_pub"
+          href="https://twitter.com/aragon_zk"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -289,7 +289,7 @@ dayjs()
             Discord
           </div>
         </a>
-        <a
+        <!-- <a
           href="https://github.com/ping-pub/explorer/discussions"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
@@ -300,7 +300,7 @@ dayjs()
           >
             FAQ
           </div>
-        </a>
+        </a> -->
       </div>
     </div>
     <div class="xl:!ml-64 px-3 pt-4">
