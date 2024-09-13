@@ -14,7 +14,7 @@
         href="https://ping.pub"
         target="_blank"
         rel="noopener noreferrer"
-        >AZKR.org</a
+        >Ping.pub</a
       >
     </div>
     <div
