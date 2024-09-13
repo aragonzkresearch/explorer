@@ -19,7 +19,7 @@
         "base": "uatom",
         "symbol": "ATOM",
         "exponent": "6",
-        "coingecko_id": "cosmos",
+        "coingecko_id": "",
         "logo": "https://azkr.org/processed_images/azkr-dark-logo.cc4bc4d02a928429.webp"
     }],
     "addr_prefix": "cosmos",

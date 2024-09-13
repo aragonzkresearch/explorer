@@ -85,7 +85,7 @@ export interface ChainConfig {
     low: number,
     average: number,
     high: number,
-  },  
+  },
   faucet?: {
     amount: string,
     ip_limit: number,
@@ -185,7 +185,7 @@ export function fromLocal(lc: LocalConfig): ChainConfig {
     }
   }
   conf.features = lc.features
-  conf.logo = lc.logo.startsWith('http') ? lc.logo : `https://ping.pub${lc.logo}`;
+  conf.logo = lc.logo.startsWith('http') ? lc.logo : `https://azkr.org/processed_images${lc.logo}`;
   conf.keplrFeatures = lc.keplr_features;
   conf.keplrPriceStep = lc.keplr_price_step;
   conf.themeColor = lc.theme_color;
@@ -315,7 +315,7 @@ export const useDashboard = defineStore('dashboard', {
                 symbol: a.symbol
               }
             })
-          } 
+          }
         })
       })
 
@@ -350,7 +350,7 @@ export const useDashboard = defineStore('dashboard', {
       this.status = LoadingStatus.Loaded;
     },
     async loadLocalConfig(network: NetworkType) {
-      const config: Record<string, ChainConfig> = {} 
+      const config: Record<string, ChainConfig> = {}
       const source: Record<string, LocalConfig> =
         network === NetworkType.Mainnet
           ? import.meta.glob('../../chains/mainnet/*.json', { eager: true })
