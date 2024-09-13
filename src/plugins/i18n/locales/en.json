@@ -23,12 +23,12 @@
     "links": "Links"
   },
   "pages": {
-    "title": "Ping Dashboard",
+    "title": "AZKR Dashboard",
     "title_all": "404",
     "tag": "Beta",
     "tag_all": "Page Not Found",
-    "slogan": "Ping Dashboard is not just an explorer but also a wallet and more ... 🛠",
-    "description": "Cosmos Ecosystem Blockchains 🚀",
+    "slogan": "AZKR Dashboard is not just an explorer but also a wallet and more ... 🛠",
+    "description": "AZKR Ecosystem Blockchains 🚀",
     "search_placeholder": "Search Chain",
     "description_all": "We couldn't find the page you are looking for.",
     "out_of_sync": "The latest block was produced at ",
@@ -105,7 +105,7 @@
     "tips_description_2": "If you want to change the default rpc endpoint. make sure that `https` and `CORS` are enabled on your server."
   },
   "cosmwasm": {
-    "title": "Cosmos Wasm Smart Contracts",
+    "title": "AZKR Wasm Smart Contracts",
     "code_id": "Code Id",
     "code_hash": "Code Hash",
     "creator": "Creator",

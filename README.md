@@ -1,10 +1,12 @@
 <div align="center">
 
-![Ping Wallet](./public/logo.svg)
+![AZKR Wallet](./public/logo-azkr-white.svg)
 
-<h1>Ping Dashboard</h1>
+<h1>AZKR Dashboard</h1>
 
-**Ping Dashboard is not only an explorer but also a wallet and more ... 🛠**
+**AZKR Dashboard is not only an explorer but also a wallet and more ... 🛠**
+
+<!--
 
 [![version](https://img.shields.io/github/tag/ping-pub/explorer.svg)](https://github.com/ping-pub/explorer/releases/latest)
 [![GitHub](https://img.shields.io/github/license/ping-pub/explorer.svg)](https://github.com/ping-pub/explorer/blob/master/LICENSE)
@@ -53,4 +55,4 @@ You can hire us by submitting an issue and fund the issue on [IssueHunter](https
 ## Contributors
 
 Developers: @liangping @dingyiming
-
+-->

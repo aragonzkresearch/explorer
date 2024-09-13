@@ -1,0 +1,28 @@
+{
+    "chain_name": "devnet",
+    "api": [
+        {
+            "address": "http://5.75.225.56:1317",
+            "provider": "Ping"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "http://5.75.225.56:8080",
+            "provider": "Ping"
+        }
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uatom",
+        "symbol": "ATOM",
+        "exponent": "6",
+        "coingecko_id": "cosmos",
+        "logo": "https://azkr.org/processed_images/azkr-dark-logo.cc4bc4d02a928429.webp"
+    }],
+    "addr_prefix": "cosmos",
+    "theme_color": "#ce4747",
+    "logo": "https://azkr.org/processed_images/azkr-dark-logo.cc4bc4d02a928429.webp"
+}
