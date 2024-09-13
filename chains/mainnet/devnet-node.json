@@ -3,13 +3,13 @@
     "api": [
         {
             "address": "http://5.75.225.56:1317",
-            "provider": "Ping"
+            "provider": "AZKR"
         }
     ],
     "rpc": [
         {
             "address": "http://5.75.225.56:8080",
-            "provider": "Ping"
+            "provider": "AZKR"
         }
     ],
     "sdk_version": "0.45.1",

@@ -1,6 +1,6 @@
 <div align="center">
 
-![AZKR Wallet](./public/logo-azkr-white.svg)
+![AZKR Wallet](./public/logo.svg)
 
 <h1>AZKR Dashboard</h1>
 
