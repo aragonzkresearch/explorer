@@ -48,7 +48,7 @@ export const useBaseStore = defineStore('baseStore', {
                 tx: DecodedTxRaw;
             }[];
             this.recents.forEach((b) =>
-                b.block?.data?.txs.forEach((tx: string) => {
+                b.block?.data?.txs?.forEach((tx: string) => {
                     if (tx) {
                         const raw = fromBase64(tx);
                         try {
