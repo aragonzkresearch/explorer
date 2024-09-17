@@ -34,7 +34,7 @@ const options = computed(() => {
 const series = computed(() => {
     return [{
         name: 'Txs',
-        data: baseStore.recents?.map((x) => x.block.data.txs?.length) || []
+        data: baseStore.recents?.map((x) => x.block.data.txs?.length ?? 0) || []
     }]
 });
 </script>

@@ -47,7 +47,7 @@ const list = computed(() => {
                     <div class="mt-2 hidden text-sm sm:!block truncate">
                         <span>{{ format.validator(item.block?.header?.proposer_address) }}</span>
                     </div>
-                    <span class="text-right mt-1 whitespace-nowrap"> {{ item.block?.data?.txs?.length }} txs </span>
+                    <span class="text-right mt-1 whitespace-nowrap"> {{ item.block?.data?.txs?.length ?? 0 }} txs </span>
                 </div>
             </RouterLink>
             </div>
