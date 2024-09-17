@@ -127,13 +127,18 @@ export function isBech32Address(v?: string) {
 
 export function formatSeconds(value?: string) {
   if(!value) return ''
-  const duration = Number(value.replace(/s/, ''))
+
+  let duration = 0;
+  if( typeof value === 'number')
+    duration = value;
+    else
+      duration = Number(value.replace(/s/, ''));
   if(duration > 24*60*60) {
     return `${(duration / ( 24 * 60 * 60)).toFixed()} days`
   }
   if(duration > 60*60) {
     return `${(duration / (60 * 60)).toFixed()} hours`
-  }    
+  }
   if(duration > 60) {
     return `${duration / 60} mins`
   }
